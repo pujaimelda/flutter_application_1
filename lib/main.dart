@@ -51,7 +51,7 @@ class _DemoHomePageState extends State<DemoHomePage> {
 
   Future<void> _runAsyncProcess() async {
     setState(() {
-      _isloadingAsync = true;
+      _isLoadingAsync = true;
       _statusAsync = "Proses Async dimulai...";
     });
 
